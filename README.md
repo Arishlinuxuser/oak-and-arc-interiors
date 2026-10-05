@@ -9,8 +9,8 @@ A responsive one-page website for a fictional interior design studio, built to d
 ## 📸 Preview
 
 <!-- Replace these with your actual screenshots after uploading them to the repo -->
-![Homepage](./assets/preview-hero.png)
-![Mobile View](./assets/preview-mobile.png)
+![Homepage](./assets/screenshot.png)
+![Mobile View](./assets/screenshot-mobile.jpg)
 
 ---
 
