@@ -1,0 +1,304 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Oak & Arc — Interior Design Studio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css"
+      integrity="sha512-QeR2VH+lsBE5LSAe1Q5EnTBbe7XTBubt8dG93Y7gidSgdMCr8nVqKcfKAMyN96SV8KDbZVTDXChatu5G2KQGzg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header>
+      <nav id="navbar" class="nav">
+        <a href="#hero" class="brand">Oak &amp; Arc</a>
+        <button class="nav-toggle" aria-label="Toggle menu">
+          <i class="fa-solid fa-bars"></i>
+        </button>
+        <div class="nav-links">
+          <a href="#services">Services</a>
+          <a href="#featured_project">Projects</a>
+          <a href="#about">About</a>
+          <a href="#contact">Contact</a>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section id="hero">
+        <span class="heading eyebrow">INTERIOR DESIGN STUDIO</span>
+        <h1>Spaces designed around the way you live.</h1>
+        <p>
+          From thoughtful layouts to refined details, we create interiors that
+          feel personal, functional, and timeless.
+        </p>
+        <div class="bottons">
+          <button class="hero-btn" type="button">Explore Our Work</button>
+          <button class="hero-btn" type="button">Book a consultation</button>
+        </div>
+      </section>
+      <section id="services">
+        <div class="service-card">
+          <span class="service-num">01</span>
+          <h3>Residential Interiors</h3>
+          <p>
+            Bespoke living environments tailored to individual human rhythms and
+            personal spatial narratives.
+          </p>
+        </div>
+        <div class="service-card">
+          <span class="service-num">02</span>
+          <h3>Commercial Design</h3>
+          <p>
+            High-end corporate and retail architectural curation engineered to
+            elevate brand identity and interaction.
+          </p>
+        </div>
+        <div class="service-card">
+          <span class="service-num">03</span>
+          <h3>Space Planning</h3>
+          <p>
+            Advanced structural blueprint layouts optimizing flow, light
+            dynamics, and foundational utility before materialization.
+          </p>
+        </div>
+        <div class="service-card">
+          <span class="service-num">04</span>
+          <h3>Renovation & Styling</h3>
+          <p>
+            Strategic architectural updates and meticulous furniture/art
+            sourcing to revive existing structures.
+          </p>
+        </div>
+      </section>
+      <section id="featured_project">
+        <div class="filter-bar">
+          <button class="filter-btn active" data-filter="all">All</button>
+          <button class="filter-btn" data-filter="residential">
+            Residential
+          </button>
+          <button class="filter-btn" data-filter="commercial">
+            Commercial
+          </button>
+        </div>
+        <div
+          class="project-card"
+          data-category="residential"
+          id="project1"
+          style="
+            background-image: url(&quot;assets/contemporary-kitchen-ideas-with-natural-light.jpg&quot;);
+          "
+        >
+          <span class="featured-card">Modern Apartment</span>
+          <p>Residential</p>
+          <a href="#">→ View Project</a>
+        </div>
+        <div
+          class="project-card"
+          data-category="commercial"
+          id="project2"
+          style="
+            background-image: url(&quot;assets/Office-interior-design-services-contemporary-results-by-Decorilla-1024x683.jpeg&quot;);
+          "
+        >
+          <span class="featured-card">Boutique Workspace</span>
+          <p>Commercial</p>
+          <a href="#">→ View Project</a>
+        </div>
+        <div
+          class="project-card"
+          data-category="residential"
+          id="project3"
+          style="
+            background-image: url(&quot;assets/7e059f7046c44cb9a7293c4279cd563c.jpg&quot;);
+          "
+        >
+          <span class="featured-card">Warm Minimal Villa</span>
+          <p>Residential</p>
+          <a href="#">→ View Project</a>
+        </div>
+      </section>
+      <section id="about">
+        <div class="about-split">
+          <div class="about-narrative">
+            <h2>Quiet luxury.<br />Uncompromised function.</h2>
+            <p>
+              Founded as a progressive design experiment, AURA crafts spaces
+              that balance quiet luxury with raw functionalism. We reject
+              unnecessary ornamentation, focusing instead on spatial volume,
+              light interaction, and material integrity to build highly
+              personalized residential sanctuaries.
+            </p>
+            <div class="about-stats">
+              <div class="stat-box">
+                <span class="stat-number">12+</span>
+                <span class="stat-label">Years Cultivating Spaces</span>
+              </div>
+              <div class="stat-box">
+                <span class="stat-number">80+</span>
+                <span class="stat-label">Curated Projects Portfolio</span>
+              </div>
+              <div class="stat-box">
+                <span class="stat-number">15</span>
+                <span class="stat-label">Cities Reimagined Globally</span>
+              </div>
+            </div>
+          </div>
+          <div class="why-choose-us">
+            <div class="section-header-minimal">
+              <h2>The Architecture of Our Process</h2>
+              <p>How we execute vision cleanly.</p>
+            </div>
+
+            <div class="pillars-grid">
+              <!-- Pillar 1 -->
+              <div class="pillar-card scroll-reveal">
+                <div class="pillar-icon">
+                  <i class="fa-solid fa-compass-drafting"></i>
+                </div>
+                <h3>Thoughtful Design</h3>
+                <p>
+                  Every structural line serves an intention. We engineer space
+                  around human patterns, not passing trends.
+                </p>
+              </div>
+
+              <!-- Pillar 2 -->
+              <div class="pillar-card scroll-reveal">
+                <div class="pillar-icon">
+                  <i class="fa-solid fa-sliders"></i>
+                </div>
+                <h3>Personalized Approach</h3>
+                <p>
+                  No two human signatures are identical. Your space reflects
+                  your specific cognitive rhythm and tactile tastes.
+                </p>
+              </div>
+
+              <!-- Pillar 3 -->
+              <div class="pillar-card scroll-reveal">
+                <div class="pillar-icon">
+                  <i class="fa-solid fa-layer-group"></i>
+                </div>
+                <h3>End-to-End Planning</h3>
+                <p>
+                  From initial structural blueprints to the sourcing of bespoke
+                  artisan textiles, we navigate the full life cycle.
+                </p>
+              </div>
+
+              <!-- Pillar 4 -->
+              <div class="pillar-card scroll-reveal">
+                <div class="pillar-icon">
+                  <i class="fa-solid fa-bezier-curve"></i>
+                </div>
+                <h3>Attention to Detail</h3>
+                <p>
+                  We obsess over micro-junctions: how raw stone meets custom
+                  milled wood, and how hidden lighting casts scale.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="design-process">
+        <div class="design-card">
+          <span class="design-card-head">01 — Consultation</span>
+          <p>Understand the space and your goals.</p>
+        </div>
+        <div class="design-card">
+          <span class="design-card-head">02 — Concept</span>
+          <p>Develop the visual direction.</p>
+        </div>
+        <div class="design-card">
+          <span class="design-card-head">03 — Design</span>
+          <p>Refine layouts, materials and details.</p>
+        </div>
+        <div class="design-card">
+          <span class="design-card-head">04 — Delivery</span>
+          <p>Bring the final vision to life.</p>
+        </div>
+      </section>
+      <section class="testimonials-container">
+        <div class="section-header">
+          <h2>Client Perspective</h2>
+          <p>(01-03)</p>
+        </div>
+        <div class="testimonials-grid">
+          <figure class="testimonial-card scroll-reveal">
+            <div class="quote-icon">“</div>
+            <blockquote>
+              "AURA completely transformed our living space. Their minimalist
+              approach didn't feel cold; instead, they created a warm,
+              functional sanctuary that perfectly accommodates our lifestyle."
+            </blockquote>
+            <figcaption>— Sarah M., Homeowner</figcaption>
+          </figure>
+          <figure class="testimonial-card scroll-reveal">
+            <div class="quote-icon">“</div>
+            <blockquote>
+              "The attention to spatial planning in our new corporate office is
+              remarkable. Our team's productivity and client reception have
+              dramatically improved due to the elegant design."
+            </blockquote>
+            <figcaption>— Daniel R., Business Owner</figcaption>
+          </figure>
+
+          <!-- Testimonial 3 -->
+          <figure class="testimonial-card scroll-reveal">
+            <div class="quote-icon">“</div>
+            <blockquote>
+              "From raw materials to custom artisan furniture selection, the
+              process was seamless. They executed our residential vision down to
+              the finest micro-junction."
+            </blockquote>
+            <figcaption>— Priya K., Client</figcaption>
+          </figure>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <section id="contact" class="contact-sec">
+        <form action="#">
+          <label for="username">Name:</label>
+          <input
+            type="text"
+            class="username"
+            placeholder="Enter your Name"
+            id="username"
+            required
+          />
+          <label for="email">Email:</label>
+          <input
+            type="email"
+            placeholder="Enter your Email"
+            class="email"
+            id="email"
+            required
+          />
+          <label for="message">Message:</label>
+          <textarea
+            class="message"
+            placeholder="Enter your message"
+            id="message"
+            name="message"
+            required
+          ></textarea>
+          <button type="submit">submit</button>
+        </form>
+      </section>
+    </footer>
+  </body>
+  <script src="js/index.js" defer></script>
+</html>
